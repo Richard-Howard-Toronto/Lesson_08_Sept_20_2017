@@ -2,7 +2,7 @@
 #permutations_totals.rb
 i = 1
 j = 1
-num = 7
+num = 8
 
 dice_array_1 =[]
 dice_array_2 =[]

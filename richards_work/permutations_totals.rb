@@ -39,3 +39,12 @@ while l < 36 # as the index runs from 0 to 35
  l += 1
 
 end
+
+
+
+def score( array )
+  hash = Hash.new(0)
+  array.each{|key| hash[key] += 1}
+  hash
+end
+score([1,2,4,5,4,7]) 
